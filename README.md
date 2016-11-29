@@ -1,28 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Phase 1: Build Working App
 
-Things you may want to cover:
+Phase 2: Add Notifications (mailer)
 
-* Ruby version
+Phase 3: Add Admin Dashboard
 
-* System dependencies
+Phase 4: Integrate RubyPress
 
-* Configuration
+Phase 5: Add Advanced Styling
 
-* Database creation
+Phase 6: Add Payment Functionality
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Phase 7: Add Competitive WS w/ mailer
 
 
 
-rails s -p $PORT -b $IP
+
