@@ -14,6 +14,8 @@ Phase 6: Add Payment Functionality
 
 Phase 7: Add Competitive WS w/ mailer
 
+Phase 8: Create Dynamic Demand Admin Analytics
+
 
 
 
