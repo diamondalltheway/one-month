@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
-  as :users do
+  devise_scope :user do
     get 'signin' => 'devise/sessions#new'
     delete 'signout' => 'devise/sessions#destroy'
     get 'signup' => 'devise/registrations#new'
