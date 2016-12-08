@@ -3,8 +3,9 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .jumbotron-home {
-    background-image: url(image_path('home-bg.jpg'));
-    background-repeat: no-repeat;
+    background-image: url("home-pattern.png");
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
     background-position: center center;
-    background-size: cover;
+  
 }
