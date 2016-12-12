@@ -6,7 +6,6 @@ ActiveAdmin.setup do |config|
   #
   config.site_title = "Direct Pitch"
 
-  config.skip_before_filter :authenticate_user!
 
 
   # Set the link url for the title. For example, to take
