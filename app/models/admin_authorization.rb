@@ -1,6 +1,6 @@
 class AdminAuthorization < ActiveAdmin::AuthorizationAdapter
     
     def authorized?(action, subject = nil)
-        user && user.admin?
+         user.admin?
     end
 end
