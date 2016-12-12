@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
+   ActiveAdmin.routes(self)
   devise_for :users
   devise_scope :user do
     get 'signin' => 'devise/sessions#new'
@@ -8,7 +9,7 @@ Rails.application.routes.draw do
   end
   
   
-   ActiveAdmin.routes(self)
+  
    
    
   root 'pages#home'
